@@ -1,0 +1,675 @@
+/* style.css */
+body{
+    background-image: url('https://coinstelegram.com/wp-content/uploads/2023/07/Ripple-XRP-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+      
+ }
+
+/* Navbar styles 
+.navbar {
+    /* background-color: #080606; 
+    padding: 10px 0;
+    /* background-color: #080606; 
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+  }
+  
+  .navbar-nav li.nav-item {
+    margin-right: 15px;
+  }
+  
+  .navbar-nav li.nav-item:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-dark .navbar-toggler-icon {
+    background-color: #0eebeb;
+  }
+  
+  /* Dropdown menu styles 
+  .dropdown-menu {
+    background-color: #333;
+  }
+  
+  .dropdown-item {
+    color: #fff;
+  }
+  
+  /* Hover effect for nav links 
+  .navbar-nav li.nav-item:hover a.nav-link {
+    color: #f8b400;
+  }
+  
+  /* Active link style 
+  .nav-item.active a.nav-link {
+    font-weight: bold;
+  }
+  
+  /* Media queries for responsiveness 
+  @media (max-width: 768px) 
+  {
+    .navbar-nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-toggler {
+      margin-top: 10px;
+    }
+  
+    .navbar-nav li.nav-item {
+      margin: 10px 0;
+    }
+  }
+
+
+/*  from here
+  .Icontentdiv1 {
+    position: absolute;
+    left: 34%;
+    color: white;
+    top: 16rem;
+}
+
+.Icontentdiv1 h1 {
+    margin-left: 53px;
+}
+
+.Icontentdiv1 p {
+    margin-top: 25px;
+    font-size: 137.5%;
+    /* color: #9D9D9D; */
+}
+
+
+/* Nrowbar 
+.Ncontainer2 {
+  margin-top: 16rem;
+}
+
+.Nrowbar {
+  display: flex;
+  gap: 4rem;
+  padding: 22px 33px;
+  border-bottom: 1px solid gray;
+  justify-content: center;
+
+}
+
+.Nrowbar a {
+  /* color: #9D9D9D; 
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.Nrowbar a:hover {
+  padding: 22px px 19px;
+  color: #FF7E00;
+  border-bottom: 3px solid #FF7E00;
+}
+
+
+
+/* How to use XRP (NFT) 
+
+#Nheading1 {
+  margin: 70px 0 50px;
+  color: #FF7E00;
+  text-align: center;
+  line-height: 65px;
+}
+
+.Ninside2 {
+  margin-left: 42rem;
+  position: relative;
+}
+
+.Nheading2 {
+  position: absolute;
+  top: 23px;
+  left: -142px;
+  /* margin: 0 0 20px; 
+  font-size: 137.5%;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #13161F;
+}
+
+.Np1 {
+  position: absolute;
+  top: 11%;
+  left: -41%;
+  width: 400px;
+  font-size: 125%;
+  line-height: 1.7;
+  /* color: #4D5060; 
+}
+
+.Ninside3 h5 {
+  /* margin-left: 16rem; 
+  padding-bottom: 2rem;
+}
+
+.Nbtn1 {
+  position: absolute;
+  top: 309px;
+  left: -142px;
+  background-color: #ffa751;
+  font-size: 137.5%;
+  font-weight: 400;
+  line-height: 1.6;
+  /* color: #13161F; 
+  text-decoration: none;
+  font-size: 20px;
+  padding: 6px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+.Nbtn1:hover {
+  /* color: white; 
+  background-color: #F7931A;
+  cursor: pointer;
+}
+
+.Nheading3 {
+  position: absolute;
+  top: 248px;
+  left: 12rem;
+  font-size: 137.5%;
+  font-weight: 400;
+  line-height: 1.6;
+  /* color: #13161F; 
+}
+
+.Np2 {
+  position: absolute;
+  top: 40%;
+  left: 22%;
+  width: 400px;
+  font-size: 125%;
+  line-height: 25px;
+  color: #4D5060;
+}
+
+.Nbtn2 {
+  position: absolute;
+  top: 488px;
+  background-color: #ffa751;
+  font-size: 137.5%;
+  font-weight: 400;
+  line-height: 1.6;
+  /* color: #13161F; 
+  text-decoration: none;
+  font-size: 20px;
+  padding: 6px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+.Nbtn2:hover {
+  /* color: white; 
+  background-color: #F7931A;
+  cursor: pointer;
+}
+
+.Nheading4 {
+  position: absolute;
+  top: 29.5rem;
+  left: -7rem;
+  font-size: 137.5%;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #13161F;
+}
+
+.Np3 {
+  position: absolute;
+  top: 71%;
+  left: -38%;
+  width: 406px;
+  font-size: 125%;
+  line-height: 26px;
+  color: #4D5060;
+}
+
+.Nbtn3 {
+  position: absolute;
+  top: 39rem;
+  left: -13rem;
+  font-size: 137.5%;
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: #ffa751;
+  color: #13161F;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 6px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+.Nbtn3:hover {
+  color: white;
+  background-color: #F7931A;
+  cursor: pointer;
+}
+
+.Nheading5 {
+  position: absolute;
+  top: 43.5rem;
+  left: 12rem;
+  font-size: 137.5%;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #13161F;
+
+}
+
+.Np4 {
+  position: absolute;
+  top: 99%;
+  left: 22%;
+  width: 400px;
+  font-size: 125%;
+  line-height: 25px;
+  color: #4D5060;
+}
+
+.Nbtn4 {
+  position: absolute;
+  top: 54rem;
+  font-size: 137.5%;
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: #ffa751;
+  color: #13161F;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 6px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+.Nbtn4:hover {
+  color: white;
+  background-color: #ffa751;
+  cursor: pointer;
+}
+
+.hr1 {
+  position: relative;
+  top: 13rem;
+  left: -22rem;
+}
+
+.Nheading4-1 {
+  position: absolute;
+  top: 29.5rem;
+  left: -12rem;
+  font-size: 137.5%;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #13161F;
+}
+
+.Nbtn3-1 {
+  position: absolute;
+  top: 44rem;
+  left: -13rem;
+  font-size: 137.5%;
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: #ffa751;
+  color: #13161F;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 6px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+.Nbtn3-1:hover {
+  color: white;
+  background-color: #ffa751;
+  cursor: pointer;
+}
+
+.Nbtn4-1 {
+  position: absolute;
+  top: 57rem;
+  font-size: 137.5%;
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: #ffa751;
+  color: #13161F;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 6px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+.Nbtn4-1:hover {
+  color: white;
+  background-color: #ffa751;
+  cursor: pointer;
+}
+
+/* footer------------------------------- 
+
+.Fimage1 img {
+  width: 100%;
+}
+
+.Fimage1 {
+  position: relative;
+
+}
+
+.Fimage2 {
+  top: 37%;
+  position: absolute;
+  left: 43%;
+  width: 15%;
+}
+
+.Fcontainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 16rem;
+  border-top: 1px solid gray;
+}
+
+.F2container {
+  display: flex;
+  margin-top: 9rem;
+  gap: 27px;
+}
+
+.F2container button {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+.F2container button:hover {
+  color: rgb(117, 87, 87);
+  background-color: #F7931A;
+  cursor: pointer;
+}
+
+.F2container span {
+  font-size: 26px;
+  color: gray;
+
+}
+
+.Fmain {
+  margin-top: 32px;
+  margin-left: 15rem;
+}
+
+.Ful {
+  margin-top: 21px;
+}
+
+.Fli {
+  list-style: none;
+  padding: 13px;
+
+}
+
+.Fli a {
+  text-decoration: none;
+  color: black;
+}
+
+.Fli a:hover {
+  color: #7919FF;
+}
+
+footer {
+  background-color: #f5f5f7;
+}
+
+.Fbottom p {
+  background-color: #13161f;
+  color: #9d9d9d;
+  text-align: center;
+  padding: 11px;
+} */
+
+
+/* Dashboard.css */
+
+/* Global Styles */
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+} */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+ /*Navigation Bar Styles */
+.navbar {
+    /* background-color: #080606; */
+    padding: 10px 0;
+    /* background-color: #080606; */
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+  }
+  
+  .navbar-nav li.nav-item {
+    margin-right: 15px;
+  }
+  
+  .navbar-nav li.nav-item:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-dark .navbar-toggler-icon {
+    background-color: #0eebeb;
+  }
+  
+  /* Dropdown menu styles */
+  .dropdown-menu {
+    background-color: #333;
+  }
+  
+  .dropdown-item {
+    color: #fff;
+  }
+  
+  /* Hover effect for nav links */
+  .navbar-nav li.nav-item:hover a.nav-link {
+    color: #f8b400;
+  }
+  
+  /* Active link style */
+  .nav-item.active a.nav-link {
+    font-weight: bold;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) 
+  {
+    .navbar-nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-toggler {
+      margin-top: 10px;
+    }
+  
+    .navbar-nav li.nav-item {
+      margin: 10px 0;
+    }
+  }
+/* Content Styles */
+ .Icontentdiv1 {
+   padding: 20px;
+  text-align: center;
+} 
+
+
+.Icontentdiv1 {
+  position: absolute;
+  left: 30%;
+  color: white;
+  top: 16rem;
+}
+
+.Icontentdiv1 h1 {
+  margin-left: 53px;
+}
+
+.Icontentdiv1 p {
+  margin-top: 25px;
+  font-size: 137.5%;
+  color: #9D9D9D;
+}
+
+.Nimagediv2 {
+  margin-top: 20px;
+}
+
+.Nimg1 {
+  width: 100%;
+  height: auto;
+}
+
+.Nrowbar {
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.Nrowbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  transition: color 0.3s;
+}
+
+.Nrowbar a:hover {
+  color: #f8b400;
+}
+
+/* NFT Content Styles */
+.Ncontainer {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+}
+.Ninside2 {
+  margin-left: 30rem;
+  position: relative;
+}
+.Nheading1 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.Nheading2,
+.Nheading3,
+.Nheading4,
+.Nheading5 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.Np1,
+.Np2,
+.Np3,
+.Np4 {
+  font-size: 16px;
+}
+
+.Nbtn1 {
+  background-color: #f8b400;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.hr1 {
+  margin-top: 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.Fcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.F2container {
+  flex-basis: 30%;
+}
+
+.Fmain {
+  flex-basis: 30%;
+}
+
+.Fmain h3 {
+  font-size: 18px;
+}
+
+.Ful {
+  list-style: none;
+  padding: 0;
+}
+
+.Fli {
+  margin-top: 10px;
+}
+
+.Fbottom {
+  margin-top: 20px;
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navbar-toggler {
+    margin-top: 10px;
+  }
+
+  .Nrowbar {
+    text-align: center;
+  }
+
+  .Nrowbar a {
+    margin: 10px 0;
+  }
+}

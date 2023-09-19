@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="NFT_details.css">
+    <!-- <script src='https://unpkg.com/xrpl@2.6.0/build/xrpl-latest-min.js'></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/xrpl@2.6.0/build/xrpl-latest-min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ripple-lib@1.10.0/build/ripple-latest-min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xrpl-client@2.1.2/dist/browser.min.js"></script>
+
+    <script> if (typeof module !== "undefined") {
+            const xrpl = require('xrpl')
+            const Client = require('xrpl')
+            // const { Wallet, AccountNFTs, NFTokenCreateOfferFlag } = require('xrpl');
+            // const { RippleAPI } = require('ripple-lib');
+        }
+    </script>
+    <title>XRPL NFT Viewer</title>
+   
+</head>
+
+<body class="body">
+    <br class="container">
+    <h1>XRPL NFT Viewer</h1>
+    <label for="seedInput">Enter XRPL Account Seed:</label>
+    <br></br>
+    <input type="text" id="seedInput" placeholder="sEdTcpfZ5CVqm6sxc86ZVmhjsE4L3GM">
+    <button id="viewNFTButton" value="wss://s.altnet.rippletest.net:51233">View NFTs</button>
+    <p>Open the browser console to view NFT details.</p>
+</div></body>
+<script type="application/javascript" src="xrpl_nft.js"></script>
+</html>
